@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightblue;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+   font-size: 60px;
+   font-weight: 800;
+   font-family: Courier, sans-serif; 
+}
+
+.habitName{
+    font-weight: bold;
+}
+
+.eachHabit{
+    text-align: center;
+    border: outset;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.recordDetails{
+    margin-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recordDetails th,.recordDetails td {
+    border: inset;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.redButton{
+    background-color: red;
+    color:white;
+    border: 2px solid;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.greenButton{
+    background-color: green;
+    color:white;
+    border: 2px solid;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.showStats{
+    text-align: center;
+}
+
+.stats{
+    text-align: center;
+    border: outset;
+    margin-top: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+    color: black;
+    padding: 10px;
+    background-color: lightgrey;
+
+}
